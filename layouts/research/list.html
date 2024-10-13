@@ -1,0 +1,26 @@
+{{ define "main" }}
+<main id="content">
+    <section class="container">
+        {{ .Content }}
+        <div class="list research-topic">
+            {{ range (.Paginator 200).Pages }}
+            <div class="item">
+
+                <a href="{{ .Permalink }}">
+                    <img class="header" src="topics/{{ .File.BaseFileName }}.png" alt="" />
+                </a>
+                <h2 class="research-name">
+                    <a href="{{ .Permalink }}">
+                        <span>{{.Title}}</span>
+                    </a>
+                </h2> 
+                <div class="summary">
+                    {{.Summary}}
+                    <br/><span><i class="ri-links-line"></i> <a href="{{ .Permalink }}">Read more</a></span>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </section>
+</main>
+{{ end }}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html lang="en"{{if (eq .Title "")}} id="homepage"{{end}}>
+    
+    {{- partial "head.html" . -}}
+    
+    <body>
+        <div class="main">         
+            {{- partial "header.html" . -}}
+            {{- partial "nav.html" . -}}
+
+            {{- block "main" . }}{{- end }}
+            
+            {{- partial "footer.html" . -}}
+        </div>
+    </body>
+
+</html>

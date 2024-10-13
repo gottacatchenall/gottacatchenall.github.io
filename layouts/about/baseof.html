@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="en"{{if (eq .Title "")}} id="homepage"{{end}}>
+    
+    {{- partial "head.html" . -}}
+    
+    <body>
+        <div class="main">         
+            {{- partial "header.html" . -}}
+            {{- partial "nav.html" . -}}
+            
+            <section class="container"> 
+
+                <div class="bio"> 
+                    <div class="mugshot">
+                        <img src="/me.jpeg"/>
+                    </div>
+                    {{ .Content }}
+                </div>
+            </section>
+            
+            {{- partial "footer.html" . -}}
+
+        </div>
+    </body>
+
+</html>

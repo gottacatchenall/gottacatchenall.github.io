@@ -1,0 +1,88 @@
+@import "_palette";
+@import "_type";
+@import "_navbar";
+@import "_layout";
+@import "_index";
+@import "_research";
+@import "_about";
+
+.container {
+    a {
+        color: $link-color;
+        text-decoration: none;
+        border-bottom: 1px solid #eee;
+        &:hover {
+            color: $link-color-hover;
+        }
+    }
+}
+
+#splash {
+    .tagline {
+        display: block;
+    }
+}
+
+.container {
+    max-width: 450px;
+    margin: 0 0 0 5vw;
+    p {
+        line-height: 1.5;
+    }
+}
+
+
+
+@media only screen and (min-width: 850px) {
+    .container {
+        max-width: 750px;
+        p {
+            line-height: 1.5;
+        }
+    }
+    header {
+        transition: 0.5s;
+        .container {
+            font-size: 200%;
+        }
+    }
+    nav#menu {
+        top: 0px;
+        a.menu span{
+            font-size: 1em;
+        }
+    }
+} 
+a.menu span{
+    font-size: 0em;
+}
+nav#menu {
+    top: 0px;
+    a.menu {
+        display: inline-block;
+        color: rgb(39, 39, 39);
+        padding: 20px 40px 0px 0px;
+    }
+    a.menu:hover {
+        color: rgb(146, 170, 192);
+    }
+}
+
+
+footer {
+    margin-top: 5em;
+    padding: 2em;
+    background-color: #ccc;
+    color: #222;
+    font-weight: 350;
+}
+
+#content {
+    ul, li {
+        list-style-type: circle;
+        line-height: 150%;
+    }
+    li {
+        margin-bottom: 1em;
+    }
+}

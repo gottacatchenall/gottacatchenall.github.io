@@ -1,0 +1,31 @@
+{{ define "main" }}
+<main id="splash" aria-role="main">
+
+    <script src="/three.min.js"></script>
+    <script src="/Bird.js"></script>
+    <script src="/Frame.js"></script>
+    <script src="/Flock.js"></script>
+    
+    <section>
+        <script>
+            var SCREEN_WIDTH = window.innerWidth,
+            SCREEN_HEIGHT = window.innerHeight,
+            SCREEN_WIDTH_HALF = SCREEN_WIDTH  / 2,
+            SCREEN_HEIGHT_HALF = SCREEN_HEIGHT / 2;
+            var camera, scene, renderer,
+            birds, bird;
+            var boid, boids;
+
+        </script>
+        <div>
+            <script>
+                init();
+                animate();
+            </script>
+            {{ .Content }}
+        </div> 
+
+    </section>
+
+</main>
+{{ end }}

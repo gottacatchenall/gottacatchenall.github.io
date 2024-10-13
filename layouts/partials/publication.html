@@ -1,0 +1,55 @@
+<div class="publication">
+    {{ $year := index .issued "date-parts" 0 0 | string }}
+    {{ $len := (len .author) }}
+
+        
+    {{ $link := "f"}}
+
+    {{ if isset . "DOI"}}
+        {{ $link =  (print "https://dx.doi.org/" $.DOI) }}
+    {{ else if isset . "URL" }}
+        {{ $link = .URL}}
+    {{ else }}
+        {{ $link = ("https://scholar.google.com/scholar?q=" $.title)}}
+    {{ end }}
+
+    <div class="publication-content">
+    <div class="publication-title">
+        <i class="ri-article-line"></i> 
+        <a href="{{$link}}">{{ title .title }}</a>
+
+
+        <span class="publication-year">
+            &nbsp;({{ $year }})
+        </span>
+
+
+    <span class="metadata link">
+        <a href={{$link}} target="_blank" title="Link to text"><i class="ri-external-link-line"></i> 
+        </a>
+    </span>
+
+    </div>
+
+    <div style="display: inline-block;">
+    <div class="authors">
+        <i class="ri-group-2-line"></i>
+
+        {{ range $key, $author := .author }}
+        <span class="name">
+            {{ if strings.Contains $author.family "Catchen"}}
+                <div class="author-is-me">
+            {{ end }}
+            <span class="given">{{ range $names := split $author.given " " }}{{ range $comps := split $names "-"}}{{ substr $comps 0 1 }}.{{ end }}{{ end }}</span>
+            <span class="family">{{ $author.family }}{{ if compare.Ne (add $key 1) $len }},{{ end }}
+            </span>
+
+            {{ if strings.Contains $author.family "Catchen"}}
+                </div>
+            {{ end }}
+        </span>
+        {{ end }}
+    </div>
+    </div>
+    </div>
+</div>

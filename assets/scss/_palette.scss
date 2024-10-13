@@ -1,0 +1,24 @@
+/* SCSS RGB */
+$dark-green: rgba(17, 79, 84, 1);
+$medium-blue: rgba(46, 83, 133, 1);
+$grey-medium: rgba(211, 208, 203, 1);
+$grey-light: rgba(231, 229, 223, 1);
+
+
+$green-light: #65b676;
+$green-dark: #2b6152;
+
+
+$background-color: #ffffff;
+$copy-color: rgba(30, 35, 31, 1);
+
+$link-color: $medium-blue;
+$link-color-hover: lighten(saturate($link-color, 20), 5);
+
+h1 {
+    color: $dark-green;
+}
+
+h2 {
+    color: $copy-color;
+}

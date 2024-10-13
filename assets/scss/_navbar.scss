@@ -1,0 +1,84 @@
+nav {
+    position: absolute;
+    margin: 0px 0px 0px 5vw;
+    min-width: 100%;
+    line-height: 60px;
+    z-index: 1000;
+    display: inline-block;
+    font-family: 'Barlow', sans-serif;
+
+    .logo {
+        z-index: 1000;
+        clear: both;
+        img {
+            margin: 0px 0px;
+            height: 60px;
+            float: left;
+        }
+        .tagline {
+            display: none;
+            color: $medium-blue;
+            font-weight: 380;
+            text-transform: uppercase;
+            line-height: 18px;
+            left: 18px;
+            top: -12px;
+            position: relative;
+            clear: both;
+            .particle {
+                min-width: 2em;
+                text-align: right;
+                padding: 0px 0px;
+                margin: 0px 0px;
+            }
+        .secondary {
+                left: calc(2em + 6px);
+                position: relative;
+                color: $dark-green;
+            }
+            .primary {
+                color: $medium-blue;
+                font-weight: 520;
+            }
+        }
+    }
+    a {
+        color: $medium-blue;
+        text-decoration: none;
+        display: block;
+        padding: 0px;
+        &.menu {
+            color: #444;
+            font-weight: 400;
+            padding: 20px 20px;
+            &:hover {
+                color: #a9a9a9;
+            }
+            &.active {
+                color: #000;
+                font-weight: 600;
+            }
+        }
+    }
+
+    nav#menu {
+        display: none;
+        z-index: 1000;
+        text-align: center;
+        i.menuicon {
+            color: $medium-blue;
+            position: relative;
+            bottom: -2px;
+            padding-right: 8px;
+        }
+    }
+    a.icon {
+        font-size: 40px;
+        right: 20px;
+        top: 20px;
+        color: $grey-medium;
+        &:hover {
+            color: $grey-medium
+        }
+    }
+}

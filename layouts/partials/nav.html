@@ -1,0 +1,14 @@
+<nav-container>
+    <nav id="menu">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        {{- $icon := printf "<i class=\"menuicon ri-lg %s\"></i>" .Pre -}}
+        <a class="menu {{if or ($currentPage.IsMenuCurrent "main" .) (eq $currentPage.Section (lower .Name) ) }} active{{end}}"
+            href="{{ .URL }}" {{ if (eq .Name "Software") }}target="_blank" {{ end }}
+            title="{{ .Title }}">
+            {{ $icon | safeHTML }} <span>{{ .Name }}</span>
+        </a>
+        {{ end }}
+    </nav>
+
+</nav-container>

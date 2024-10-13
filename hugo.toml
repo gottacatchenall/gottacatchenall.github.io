@@ -1,0 +1,47 @@
+baseURL = "https://gottacatchenall.github.io/"
+languageCode = "en-ca"
+preserveTaxonomyNames = true
+
+[params]
+  title = "michael d. catchen"
+  subtitle = "subtitle"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+
+
+[menu]
+  [[menu.main]]
+    name = ""
+    pre = "ri-home-5-line"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "about"
+    pre = "ri-account-circle-line"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "research"
+    pre = "ri-microscope-line"
+    url = "/research/"
+    weight = 3
+  [[menu.main]]
+    name = "publications"
+    pre = "ri-file-paper-2-line"
+    url = "/publications/"
+    weight = 4
+  [[menu.main]]
+    name = "software"
+    pre = "ri-terminal-box-line"
+    url = "http://www.github.com/gottacatchenall"
+    weight = 5
+  [[menu.main]]
+    name = "cv"
+    pre = "ri-article-line"
+    url = "/cv.pdf"
+    weight = 6

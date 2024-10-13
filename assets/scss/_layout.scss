@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+.name {
+    font-size: 0.9em;
+}
+
+.authors{
+    display: inline-block;
+    line-height: 1.1;
+}
+
+.author-is-me{
+    display: inline-block;
+    font-weight: 600;
+    color: "#555"
+}
+
+.publication-year{
+    font-weight: 400;
+    font-size: 0.95em;
+}
+
+.publication{
+    width: 80%;
+    .publication-title{
+        width: 110%;
+        line-height: 1.1;
+        font-weight: 500;
+        padding-bottom: 0.3em;
+    }
+    font-family: "Barlow";
+}
+
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+html, body {
+    margin: 0 0;
+    padding: 0 0;
+    width: 100vw;
+    max-width: 100%;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+body {
+    background-color: $background-color;
+    color: $copy-color;
+}
+
+header {
+    line-height: 3em;
+    font-weight: 200;
+    position: relative;
+    text-transform: lowercase;
+    color: $medium-blue !important;
+    top: 0;
+    font-size: 1.8rem;
+    .container {
+        font-weight: 500;
+        padding-bottom: 0em !important;
+        padding-top: calc(1em + 80px) !important;
+        color: $medium-blue;
+    }
+}
+
+main#content {
+    padding-bottom: 5em;
+    padding-top: 2em;
+}
+
+.container {
+    width: 100vw;
+    display: block;
+    line-height: 1.4;
+    ul, li {
+        list-style: circle;
+    }
+}
+
+.publication{
+    padding: 15px 0px;
+}
+
+canvas {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+}

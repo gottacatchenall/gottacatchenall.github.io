@@ -1,0 +1,376 @@
+[
+	{
+		"id": "Strydom2021RoaPrea",
+		"type": "article-journal",
+		"abstract": "Networks of species interactions underpin numerous ecosystem processes, but comprehensively sampling these interactions is difficult. Interactions intrinsically vary across space and time, and given the number of species that compose ecological communities, it can be tough to distinguish between a true negative (where two species never interact) from a false negative (where two species have not been observed interacting even though they actually do). Assessing the likelihood of interactions between species is an imperative for several fields of ecology. This means that to predict interactions between species—and to describe the structure, variation, and change of the ecological networks they form—we need to rely on modelling tools. Here, we provide a proof-of-concept, where we show how a simple neural network model makes accurate predictions about species interactions given limited data. We then assess the challenges and opportunities associated with improving interaction predictions, and provide a conceptual roadmap forward towards predictive models of ecological networks that is explicitly spatial and temporal. We conclude with a brief primer on the relevant methods and tools needed to start building these models, which we hope will guide this research programme forward.\n            This article is part of the theme issue ‘Infectious disease macroecology: parasite diversity and dynamics across the globe’.",
+		"container-title": "Philosophical Transactions of the Royal Society B: Biological Sciences",
+		"DOI": "10.1098/rstb.2021.0063",
+		"ISSN": "0962-8436, 1471-2970",
+		"issue": "1837",
+		"journalAbbreviation": "Phil. Trans. R. Soc. B",
+		"language": "en",
+		"page": "20210063",
+		"source": "DOI.org (Crossref)",
+		"title": "A roadmap towards predicting species interaction networks (across space and time)",
+		"URL": "https://royalsocietypublishing.org/doi/10.1098/rstb.2021.0063",
+		"volume": "376",
+		"author": [
+			{
+				"family": "Strydom",
+				"given": "Tanya"
+			},
+			{
+				"family": "Catchen",
+				"given": "Michael D."
+			},
+			{
+				"family": "Banville",
+				"given": "Francis"
+			},
+			{
+				"family": "Caron",
+				"given": "Dominique"
+			},
+			{
+				"family": "Dansereau",
+				"given": "Gabriel"
+			},
+			{
+				"family": "Desjardins-Proulx",
+				"given": "Philippe"
+			},
+			{
+				"family": "Forero-Muñoz",
+				"given": "Norma R."
+			},
+			{
+				"family": "Higino",
+				"given": "Gracielle"
+			},
+			{
+				"family": "Mercier",
+				"given": "Benjamin"
+			},
+			{
+				"family": "Gonzalez",
+				"given": "Andrew"
+			},
+			{
+				"family": "Gravel",
+				"given": "Dominique"
+			},
+			{
+				"family": "Pollock",
+				"given": "Laura"
+			},
+			{
+				"family": "Poisot",
+				"given": "Timothée"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					9,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					11,
+					8
+				]
+			]
+		}
+	},
+	{
+		"id": "Gonzalez2023GloBioa",
+		"type": "article-journal",
+		"container-title": "Nature ecology & evolution",
+		"issue": "12",
+		"note": "publisher: Nature Publishing Group UK London",
+		"page": "1947–1952",
+		"source": "Google Scholar",
+		"title": "A global biodiversity observing system to unite monitoring and guide action",
+		"URL": "https://www.nature.com/articles/s41559-023-02171-0",
+		"volume": "7",
+		"author": [
+			{
+				"family": "Gonzalez",
+				"given": "Andrew"
+			},
+			{
+				"family": "Vihervaara",
+				"given": "Petteri"
+			},
+			{
+				"family": "Balvanera",
+				"given": "Patricia"
+			},
+			{
+				"family": "Bates",
+				"given": "Amanda E."
+			},
+			{
+				"family": "Bayraktarov",
+				"given": "Elisa"
+			},
+			{
+				"family": "Bellingham",
+				"given": "Peter J."
+			},
+			{
+				"family": "Bruder",
+				"given": "Andreas"
+			},
+			{
+				"family": "Campbell",
+				"given": "Jillian"
+			},
+			{
+				"family": "Catchen",
+				"given": "Michael D."
+			},
+			{
+				"family": "Cavender-Bares",
+				"given": "Jeannine"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					9,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "Catchen2023MisLin",
+		"type": "article-journal",
+		"note": "publisher: EcoEvoRxiv",
+		"source": "Google Scholar",
+		"title": "The missing link: Discerning true from false negatives when sampling species Interaction networks",
+		"title-short": "The missing link",
+		"URL": "https://ecoevorxiv.org/repository/view/4929/",
+		"author": [
+			{
+				"family": "Catchen",
+				"given": "Michael D."
+			},
+			{
+				"family": "Poisot",
+				"given": "Timothée"
+			},
+			{
+				"family": "Pollock",
+				"given": "Laura J."
+			},
+			{
+				"family": "Gonzalez",
+				"given": "Andrew"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					9,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "Catchen2023ImpEcoa",
+		"type": "article-journal",
+		"note": "publisher: EcoEvoRxiv",
+		"source": "Google Scholar",
+		"title": "Improving ecological connectivity assessments with transfer learning and function approximation",
+		"URL": "https://ecoevorxiv.org/repository/view/5348/",
+		"author": [
+			{
+				"family": "Catchen",
+				"given": "Michael D."
+			},
+			{
+				"family": "Lin",
+				"given": "Michelle"
+			},
+			{
+				"family": "Poisot",
+				"given": "Timothée"
+			},
+			{
+				"family": "Rolnick",
+				"given": "David"
+			},
+			{
+				"family": "Gonzalez",
+				"given": "Andrew"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					9,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "Banville2024DecPro",
+		"type": "article-journal",
+		"note": "publisher: EcoEvoRxiv",
+		"source": "Google Scholar",
+		"title": "Deciphering probabilistic species interaction networks",
+		"URL": "https://ecoevorxiv.org/repository/view/7442/",
+		"author": [
+			{
+				"family": "Banville",
+				"given": "Francis"
+			},
+			{
+				"family": "Strydom",
+				"given": "Tanya"
+			},
+			{
+				"family": "Blyth",
+				"given": "Penelope"
+			},
+			{
+				"family": "Brimacombe",
+				"given": "Chris"
+			},
+			{
+				"family": "Catchen",
+				"given": "Michael D."
+			},
+			{
+				"family": "Dansereau",
+				"given": "Gabriel"
+			},
+			{
+				"family": "Higino",
+				"given": "Gracielle"
+			},
+			{
+				"family": "Malpas",
+				"given": "Thomas"
+			},
+			{
+				"family": "Mayall",
+				"given": "Hana"
+			},
+			{
+				"family": "Norman",
+				"given": "Kari"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					9,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "Catchen2024ImpMon",
+		"type": "article-journal",
+		"note": "publisher: McGill University",
+		"source": "Google Scholar",
+		"title": "Improving monitoring and prediction of ecological dynamics with simulation and machine learning",
+		"URL": "https://escholarship.mcgill.ca/concern/theses/6108vh942",
+		"author": [
+			{
+				"family": "Catchen",
+				"given": "Michael"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					9,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "Catchen2020PhaTra",
+		"type": "thesis",
+		"genre": "Master's Thesis",
+		"publisher": "University of Colorado at Boulder",
+		"source": "Google Scholar",
+		"title": "Phase Transitions in Landscape Connectivity",
+		"URL": "https://search.proquest.com/openview/41533c2005d65b502984223b7d17221f/1?pq-origsite=gscholar&cbl=18750&diss=y",
+		"author": [
+			{
+				"family": "Catchen",
+				"given": "Michael David"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					9,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	}
+]

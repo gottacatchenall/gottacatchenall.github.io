@@ -31,6 +31,7 @@ science, or something else, [hit me up](mailto:michael.catchen@umontreal.ca).
 <br/>&nbsp;
 <br/>
 
+
 #### Technical specifications
 
 - Established in Florida circa 1997. _27 years of Quality, Service, and Value_
@@ -41,4 +42,6 @@ science, or something else, [hit me up](mailto:michael.catchen@umontreal.ca).
 - Unlikely to increase shareholder value 
 - Warranty not included, some assembly required. No motorcycles past 3pm. 
 - Please consider the environment before printing this email.
-- This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.
+- This statement has not been evaluated by the Food and Drug Administration.
+  This product is not intended to diagnose, treat, cure, or prevent any disease.
+

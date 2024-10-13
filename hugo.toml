@@ -4,7 +4,7 @@ preserveTaxonomyNames = true
 
 [params]
   title = "michael d. catchen"
-  subtitle = "subtitle"
+  description = "michael d. catchen is a postdoctoral researcher in computational ecology."
 
 [markup]
   [markup.goldmark]

@@ -32,9 +32,12 @@ science, or something else, [hit me up](mailto:michael.catchen@umontreal.ca).
 <br/>
 
 
-#### Technical specifications
+{{<rawhtml>}} <div style="font-family: Barlow, sans-serif; font-size: 0.9em;"> {{</rawhtml>}}
 
-- Established in Florida circa 1997. _27 years of Quality, Service, and Value_
+
+### Technical specifications
+
+- Established in Florida circa 1997 --- _27 years of Quality, Service, and Value_
 - 1803.39 x 457.23 x 254.2 mm (measurements and units are approximate)
 - Raised in Colorado
 - Technically worked for NASA for about 8 months
@@ -44,4 +47,6 @@ science, or something else, [hit me up](mailto:michael.catchen@umontreal.ca).
 - Please consider the environment before printing this email.
 - This statement has not been evaluated by the Food and Drug Administration.
   This product is not intended to diagnose, treat, cure, or prevent any disease.
+
+{{<rawhtml>}} </div> {{</rawhtml>}}
 

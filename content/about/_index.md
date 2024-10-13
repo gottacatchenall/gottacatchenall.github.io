@@ -40,4 +40,5 @@ science, or something else, [hit me up](mailto:michael.catchen@umontreal.ca).
 - Available in Cherry, Lime, and (new!) Grape Flavors
 - Unlikely to increase shareholder value 
 - Warranty not included, some assembly required. No motorcycles past 3pm. 
+- Please consider the environment before printing this email.
 - This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.

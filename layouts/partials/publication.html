@@ -10,7 +10,6 @@
     {{ else if isset . "URL" }}
         {{ $link = .URL}}
     {{ else }}
-        {{ $link = ("https://scholar.google.com/scholar?q=" $.title)}}
     {{ end }}
 
     <div class="publication-content">
@@ -45,7 +44,7 @@
             </span>
 
             {{ if strings.Contains $author.family "Catchen"}}
-                &nbsp;</div>
+                </div>
             {{ end }}
         </span>
         {{ end }}

@@ -71,10 +71,27 @@
             width: 50vw;
             div {
                 width: 130%;
-                max-width: 1000px;
-                min-width: 500px;
+                max-width: 750px;
+                min-width: 350px;
                 margin: 0px auto;
             }
         }
     }
+}
+
+@media only screen and (max-height: 760px) {
+    #splash {
+        section {
+            position: absolute;
+            top: 60px;
+            div {
+                position: absolute;
+                width: 130%;
+                max-width: 750px;
+                min-width: 350px;
+                margin: 0px auto;
+            }
+        }
+    }
+
 }

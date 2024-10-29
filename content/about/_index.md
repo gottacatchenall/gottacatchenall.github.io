@@ -10,7 +10,7 @@ I'm an [IVADO](http://www.ivado.ca) Postdoctoral Fellow in the [Poisot
 Computational Ecology Lab](http://poisotlab.io) at the [Université de
 Montréal](http://umontreal.ca). I received my PhD from McGill University under
 the supervision of [Dr. Andy Gonzalez](http://thegonzalezlab.org), working on
-computational methods to understand biogeography and the dynamics of species
+computational methods to understand the biogeography and dynamics of species
 interaction networks. 
 
 Currently, my research focuses on species distribution modeling using machine

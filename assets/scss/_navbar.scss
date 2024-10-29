@@ -48,11 +48,11 @@ nav {
         display: block;
         padding: 0px;
         &.menu {
-            color: #444;
+            color: #f1f1f1;
             font-weight: 400;
             padding: 20px 20px;
             &:hover {
-                color: #a9a9a9;
+                color: #404040;
             }
             &.active {
                 color: #000;
@@ -76,9 +76,9 @@ nav {
         font-size: 40px;
         right: 20px;
         top: 20px;
-        color: $grey-medium;
+        color: #fff;
         &:hover {
-            color: $grey-medium
+            color: #404040;
         }
     }
 }

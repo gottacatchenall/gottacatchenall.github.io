@@ -6,7 +6,7 @@
         // background-image: url("/background.jpg");
         background-position: center center;
         background-size: cover;
-        background-color: #f5f5f5;
+        background-image: linear-gradient(#6cb5e6,rgb(236, 236, 236),);
     }
 }
 
@@ -52,7 +52,7 @@
         color: white;
         text-align: center;
         div {
-            background-color: #207363;
+            background-color: #176455;
             padding: 3rem;
             text-align: left;
             max-width: 650px;

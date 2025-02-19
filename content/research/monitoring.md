@@ -6,6 +6,15 @@ summary: Where should we collect data to learn the most about the state of biodi
 ---
 
 
+# We need a Global Biodiversity Observation System
+
+Modeled after the Global Climate Observation System (GCOS).
+
+
+![caption](/multiscale.png "Multi-scale biodiversity monitoring")
+
+
+
 {{< rawhtml >}}
 <span style="font-size:3em;">
 🚧🏗️👷‍♂️👷‍♀️🦺🔨🧰🪚🪛🏗️🚧

@@ -1,119 +1,493 @@
 [
 	{
-		"id": "Catchen2023ImpEcoa",
+		"id": "Gonzalez2023GlobalBiodiversity",
 		"type": "article-journal",
-		"note": "publisher: EcoEvoRxiv",
-		"source": "Google Scholar",
-		"title": "Improving ecological connectivity assessments with transfer learning and function approximation",
-		"URL": "https://ecoevorxiv.org/repository/view/5348/",
+		"abstract": "The rate and extent of global biodiversity change is surpassing our ability to measure, monitor and forecast trends. We propose an interconnected worldwide system of observation networks — a global biodiversity observing system (GBiOS) — to coordinate monitoring worldwide and inform action to reach international biodiversity targets.",
+		"container-title": "Nature Ecology & Evolution",
+		"DOI": "10.1038/s41559-023-02171-0",
+		"ISSN": "2397-334X",
+		"journalAbbreviation": "Nat Ecol Evol",
+		"language": "en",
+		"license": "2023 Springer Nature Limited",
+		"note": "publisher: Nature Publishing Group",
+		"page": "1-6",
+		"source": "www.nature.com",
+		"title": "A global biodiversity observing system to unite monitoring and guide action",
+		"URL": "https://www.nature.com/articles/s41559-023-02171-0",
 		"author": [
+			{
+				"family": "Gonzalez",
+				"given": "Andrew"
+			},
+			{
+				"family": "Vihervaara",
+				"given": "Petteri"
+			},
+			{
+				"family": "Balvanera",
+				"given": "Patricia"
+			},
+			{
+				"family": "Bates",
+				"given": "Amanda E."
+			},
+			{
+				"family": "Bayraktarov",
+				"given": "Elisa"
+			},
+			{
+				"family": "Bellingham",
+				"given": "Peter J."
+			},
+			{
+				"family": "Bruder",
+				"given": "Andreas"
+			},
+			{
+				"family": "Campbell",
+				"given": "Jillian"
+			},
 			{
 				"family": "Catchen",
 				"given": "Michael D."
 			},
 			{
-				"family": "Lin",
-				"given": "Michelle"
+				"family": "Cavender-Bares",
+				"given": "Jeannine"
+			},
+			{
+				"family": "Chase",
+				"given": "Jonathan"
+			},
+			{
+				"family": "Coops",
+				"given": "Nicholas"
+			},
+			{
+				"family": "Costello",
+				"given": "Mark J."
+			},
+			{
+				"family": "Czúcz",
+				"given": "Bálint"
+			},
+			{
+				"family": "Delavaud",
+				"given": "Aurélie"
+			},
+			{
+				"family": "Dornelas",
+				"given": "Maria"
+			},
+			{
+				"family": "Dubois",
+				"given": "Grégoire"
+			},
+			{
+				"family": "Duffy",
+				"given": "Emmett J."
+			},
+			{
+				"family": "Eggermont",
+				"given": "Hilde"
+			},
+			{
+				"family": "Fernandez",
+				"given": "Miguel"
+			},
+			{
+				"family": "Fernandez",
+				"given": "Nestor"
+			},
+			{
+				"family": "Ferrier",
+				"given": "Simon"
+			},
+			{
+				"family": "Geller",
+				"given": "Gary N."
+			},
+			{
+				"family": "Gill",
+				"given": "Michael"
+			},
+			{
+				"family": "Gravel",
+				"given": "Dominique"
+			},
+			{
+				"family": "Guerra",
+				"given": "Carlos A."
+			},
+			{
+				"family": "Guralnick",
+				"given": "Robert"
+			},
+			{
+				"family": "Harfoot",
+				"given": "Michael"
+			},
+			{
+				"family": "Hirsch",
+				"given": "Tim"
+			},
+			{
+				"family": "Hoban",
+				"given": "Sean"
+			},
+			{
+				"family": "Hughes",
+				"given": "Alice C."
+			},
+			{
+				"family": "Hugo",
+				"given": "Wim"
+			},
+			{
+				"family": "Hunter",
+				"given": "Margaret E."
+			},
+			{
+				"family": "Isbell",
+				"given": "Forest"
+			},
+			{
+				"family": "Jetz",
+				"given": "Walter"
+			},
+			{
+				"family": "Juergens",
+				"given": "Norbert"
+			},
+			{
+				"family": "Kissling",
+				"given": "W. Daniel"
+			},
+			{
+				"family": "Krug",
+				"given": "Cornelia B."
+			},
+			{
+				"family": "Kullberg",
+				"given": "Peter"
+			},
+			{
+				"family": "Le Bras",
+				"given": "Yvan"
+			},
+			{
+				"family": "Leung",
+				"given": "Brian"
+			},
+			{
+				"family": "Londoño-Murcia",
+				"given": "Maria Cecilia"
+			},
+			{
+				"family": "Lord",
+				"given": "Jean-Michel"
+			},
+			{
+				"family": "Loreau",
+				"given": "Michel"
+			},
+			{
+				"family": "Luers",
+				"given": "Amy"
+			},
+			{
+				"family": "Ma",
+				"given": "Keping"
+			},
+			{
+				"family": "MacDonald",
+				"given": "Anna J."
+			},
+			{
+				"family": "Maes",
+				"given": "Joachim"
+			},
+			{
+				"family": "McGeoch",
+				"given": "Melodie"
+			},
+			{
+				"family": "Mihoub",
+				"given": "Jean Baptiste"
+			},
+			{
+				"family": "Millette",
+				"given": "Katie L."
+			},
+			{
+				"family": "Molnar",
+				"given": "Zsolt"
+			},
+			{
+				"family": "Montes",
+				"given": "Enrique"
+			},
+			{
+				"family": "Mori",
+				"given": "Akira S."
+			},
+			{
+				"family": "Muller-Karger",
+				"given": "Frank E."
+			},
+			{
+				"family": "Muraoka",
+				"given": "Hiroyuki"
+			},
+			{
+				"family": "Nakaoka",
+				"given": "Masahiro"
+			},
+			{
+				"family": "Navarro",
+				"given": "Laetitia"
+			},
+			{
+				"family": "Newbold",
+				"given": "Tim"
+			},
+			{
+				"family": "Niamir",
+				"given": "Aidin"
+			},
+			{
+				"family": "Obura",
+				"given": "David"
+			},
+			{
+				"family": "O’Connor",
+				"given": "Mary"
+			},
+			{
+				"family": "Paganini",
+				"given": "Marc"
+			},
+			{
+				"family": "Pelletier",
+				"given": "Dominique"
+			},
+			{
+				"family": "Pereira",
+				"given": "Henrique"
 			},
 			{
 				"family": "Poisot",
 				"given": "Timothée"
 			},
 			{
-				"family": "Rolnick",
-				"given": "David"
+				"family": "Pollock",
+				"given": "Laura J."
 			},
 			{
-				"family": "Gonzalez",
+				"family": "Purvis",
+				"given": "Andy"
+			},
+			{
+				"family": "Radulovici",
+				"given": "Adriana"
+			},
+			{
+				"family": "Rocchini",
+				"given": "Duccio"
+			},
+			{
+				"family": "Roeoesli",
+				"given": "Claudia"
+			},
+			{
+				"family": "Schaepman",
+				"given": "Michael"
+			},
+			{
+				"family": "Schaepman-Strub",
+				"given": "Gabriela"
+			},
+			{
+				"family": "Schmeller",
+				"given": "Dirk S."
+			},
+			{
+				"family": "Schmiedel",
+				"given": "Ute"
+			},
+			{
+				"family": "Schneider",
+				"given": "Fabian D."
+			},
+			{
+				"family": "Shakya",
+				"given": "Mangal Man"
+			},
+			{
+				"family": "Skidmore",
 				"given": "Andrew"
+			},
+			{
+				"family": "Skowno",
+				"given": "Andrew L."
+			},
+			{
+				"family": "Takeuchi",
+				"given": "Yayioi"
+			},
+			{
+				"family": "Tuanmu",
+				"given": "Mao-Ning"
+			},
+			{
+				"family": "Turak",
+				"given": "Eren"
+			},
+			{
+				"family": "Turner",
+				"given": "Woody"
+			},
+			{
+				"family": "Urban",
+				"given": "Mark C."
+			},
+			{
+				"family": "Urbina-Cardona",
+				"given": "Nicolás"
+			},
+			{
+				"family": "Valbuena",
+				"given": "Ruben"
+			},
+			{
+				"family": "Van de Putte",
+				"given": "Anton"
+			},
+			{
+				"family": "Havre",
+				"given": "Basile",
+				"non-dropping-particle": "van"
+			},
+			{
+				"family": "Wingate",
+				"given": "Vladimir Ruslan"
+			},
+			{
+				"family": "Wright",
+				"given": "Elaine"
+			},
+			{
+				"family": "Torrelio",
+				"given": "Carlos Zambrana"
 			}
 		],
 		"accessed": {
 			"date-parts": [
 				[
-					"2024",
-					9,
-					2
+					"2023",
+					11,
+					25
 				]
 			]
 		},
 		"issued": {
 			"date-parts": [
 				[
-					"2023"
+					"2023",
+					8,
+					24
 				]
 			]
 		}
 	},
 	{
-		"id": "Banville2024DecPro",
+		"id": "Strydom2021RoadmapPredicting",
 		"type": "article-journal",
-		"note": "publisher: EcoEvoRxiv",
-		"source": "Google Scholar",
-		"title": "Deciphering probabilistic species interaction networks",
-		"URL": "https://ecoevorxiv.org/repository/view/7442/",
+		"abstract": "Networks of species interactions underpin numerous ecosystem processes, but comprehensively sampling these interactions is difficult. Interactions intrinsically vary across space and time, and given the number of species that compose ecological communities, it can be tough to distinguish between a true negative (where two species never interact) from a false negative (where two species have not been observed interacting even though they actually do). Assessing the likelihood of interactions between species is an imperative for several fields of ecology. This means that to predict interactions between species—and to describe the structure, variation, and change of the ecological networks they form—we need to rely on modelling tools. Here, we provide a proof-of-concept, where we show how a simple neural network model makes accurate predictions about species interactions given limited data. We then assess the challenges and opportunities associated with improving interaction predictions, and provide a conceptual roadmap forward towards predictive models of ecological networks that is explicitly spatial and temporal. We conclude with a brief primer on the relevant methods and tools needed to start building these models, which we hope will guide this research programme forward.\n\nThis article is part of the theme issue ‘Infectious disease macroecology: parasite diversity and dynamics across the globe’.",
+		"container-title": "Philosophical Transactions of the Royal Society B: Biological Sciences",
+		"DOI": "10.1098/rstb.2021.0063",
+		"issue": "1837",
+		"note": "publisher: Royal Society",
+		"page": "20210063",
+		"source": "royalsocietypublishing-org.proxy3.library.mcgill.ca (Atypon)",
+		"title": "A roadmap towards predicting species interaction networks (across space and time)",
+		"URL": "https://royalsocietypublishing.org/doi/full/10.1098/rstb.2021.0063",
+		"volume": "376",
 		"author": [
-			{
-				"family": "Banville",
-				"given": "Francis"
-			},
 			{
 				"family": "Strydom",
 				"given": "Tanya"
-			},
-			{
-				"family": "Blyth",
-				"given": "Penelope"
-			},
-			{
-				"family": "Brimacombe",
-				"given": "Chris"
 			},
 			{
 				"family": "Catchen",
 				"given": "Michael D."
 			},
 			{
+				"family": "Banville",
+				"given": "Francis"
+			},
+			{
+				"family": "Caron",
+				"given": "Dominique"
+			},
+			{
 				"family": "Dansereau",
 				"given": "Gabriel"
+			},
+			{
+				"family": "Desjardins-Proulx",
+				"given": "Philippe"
+			},
+			{
+				"family": "Forero-Muñoz",
+				"given": "Norma R."
 			},
 			{
 				"family": "Higino",
 				"given": "Gracielle"
 			},
 			{
-				"family": "Malpas",
-				"given": "Thomas"
+				"family": "Mercier",
+				"given": "Benjamin"
 			},
 			{
-				"family": "Mayall",
-				"given": "Hana"
+				"family": "Gonzalez",
+				"given": "Andrew"
 			},
 			{
-				"family": "Norman",
-				"given": "Kari"
+				"family": "Gravel",
+				"given": "Dominique"
+			},
+			{
+				"family": "Pollock",
+				"given": "Laura"
+			},
+			{
+				"family": "Poisot",
+				"given": "Timothée"
 			}
 		],
 		"accessed": {
 			"date-parts": [
 				[
-					"2024",
-					9,
-					2
+					"2023",
+					5,
+					4
 				]
 			]
 		},
 		"issued": {
 			"date-parts": [
 				[
-					"2024"
+					"2021",
+					9,
+					20
 				]
 			]
 		}
 	},
-    {"id":"Gonzalez2023Global","accessed":{"date-parts":[["2023",8,25]]},"author":[{"family":"Gonzalez","given":"Andrew"},{"family":"Vihervaara","given":"Petteri"},{"family":"Balvanera","given":"Patricia"},{"family":"Bates","given":"Amanda E."},{"family":"Bayraktarov","given":"Elisa"},{"family":"Bellingham","given":"Peter J."},{"family":"Bruder","given":"Andreas"},{"family":"Campbell","given":"Jillian"},{"family":"Catchen","given":"Michael D."},{"family":"Cavender-Bares","given":"Jeannine"},{"family":"Chase","given":"Jonathan"},{"family":"Coops","given":"Nicholas"},{"family":"Costello","given":"Mark J."},{"family":"Dornelas","given":"Maria"},{"family":"Dubois","given":"Grégoire"},{"family":"Duffy","given":"Emmett J."},{"family":"Eggermont","given":"Hilde"},{"family":"Fernandez","given":"Nestor"},{"family":"Ferrier","given":"Simon"},{"family":"Geller","given":"Gary N."},{"family":"Gill","given":"Michael"},{"family":"Gravel","given":"Dominique"},{"family":"Guerra","given":"Carlos A."},{"family":"Guralnick","given":"Robert"},{"family":"Harfoot","given":"Michael"},{"family":"Hirsch","given":"Tim"},{"family":"Hoban","given":"Sean"},{"family":"Hughes","given":"Alice C."},{"family":"Hunter","given":"Margaret E."},{"family":"Isbell","given":"Forest"},{"family":"Jetz","given":"Walter"},{"family":"Juergens","given":"Norbert"},{"family":"Kissling","given":"W. Daniel"},{"family":"Krug","given":"Cornelia B."},{"family":"Le Bras","given":"Yvan"},{"family":"Leung","given":"Brian"},{"family":"Londoño-Murcia","given":"Maria Cecilia"},{"family":"Lord","given":"Jean-Michel"},{"family":"Loreau","given":"Michel"},{"family":"Luers","given":"Amy"},{"family":"Ma","given":"Keping"},{"family":"MacDonald","given":"Anna J."},{"family":"McGeoch","given":"Melodie"},{"family":"Millette","given":"Katie L."},{"family":"Molnar","given":"Zsolt"},{"family":"Mori","given":"Akira S."},{"family":"Muller-Karger","given":"Frank E."},{"family":"Muraoka","given":"Hiroyuki"},{"family":"Navarro","given":"Laetitia"},{"family":"Newbold","given":"Tim"},{"family":"Niamir","given":"Aidin"},{"family":"Obura","given":"David"},{"family":"O’Connor","given":"Mary"},{"family":"Paganini","given":"Marc"},{"family":"Pereira","given":"Henrique"},{"family":"Poisot","given":"Timothée"},{"family":"Pollock","given":"Laura J."},{"family":"Purvis","given":"Andy"},{"family":"Radulovici","given":"Adriana"},{"family":"Rocchini","given":"Duccio"},{"family":"Schaepman","given":"Michael"},{"family":"Schaepman-Strub","given":"Gabriela"},{"family":"Schmeller","given":"Dirk S."},{"family":"Schmiedel","given":"Ute"},{"family":"Schneider","given":"Fabian D."},{"family":"Shakya","given":"Mangal Man"},{"family":"Skidmore","given":"Andrew"},{"family":"Skowno","given":"Andrew L."},{"family":"Takeuchi","given":"Yayoi"},{"family":"Tuanmu","given":"Mao-Ning"},{"family":"Turak","given":"Eren"},{"family":"Turner","given":"Woody"},{"family":"Urban","given":"Mark C."},{"family":"Urbina-Cardona","given":"Nicolás"},{"family":"Valbuena","given":"Ruben"},{"family":"Van Havre","given":"Basile"},{"family":"Wright","given":"Elaine"}],"citation-key":"Gonzalez2023Global","container-title":"Nature Ecology & Evolution","container-title-short":"Nat Ecol Evol","DOI":"10.1038/s41559-023-02171-0","ISSN":"2397-334X","issued":{"date-parts":[["2023",8,24]]},"language":"en","source":"DOI.org (Crossref)","title":"A global biodiversity observing system to unite monitoring and guide action","type":"article-journal","URL":"https://www.nature.com/articles/s41559-023-02171-0"},
 	{
-		"id": "Catchen2024ImpMon",
+		"id": "Catchen2024ImprovingMonitoring",
 		"type": "article-journal",
 		"note": "publisher: McGill University",
 		"source": "Google Scholar",
@@ -142,52 +516,8 @@
 			]
 		}
 	},
-    {
-		"id": "Catchen2023MisLin",
-		"type": "article-journal",
-		"note": "publisher: EcoEvoRxiv",
-		"source": "Google Scholar",
-		"title": "The missing link: Discerning true from false negatives when sampling species Interaction networks",
-		"title-short": "The missing link",
-		"URL": "https://ecoevorxiv.org/repository/view/4929/",
-		"author": [
-			{
-				"family": "Catchen",
-				"given": "Michael D."
-			},
-			{
-				"family": "Poisot",
-				"given": "Timothée"
-			},
-			{
-				"family": "Pollock",
-				"given": "Laura J."
-			},
-			{
-				"family": "Gonzalez",
-				"given": "Andrew"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2024",
-					9,
-					2
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2023"
-				]
-			]
-		}
-	},
-    {"id":"Strydom2021Roadmap","accessed":{"date-parts":[["2021",9,20]]},"author":[{"family":"Strydom","given":"Tanya"},{"family":"Catchen","given":"Michael D."},{"family":"Banville","given":"Francis"},{"family":"Caron","given":"Dominique"},{"family":"Dansereau","given":"Gabriel"},{"family":"Desjardins-Proulx","given":"Philippe"},{"family":"Forero-Muñoz","given":"Norma R."},{"family":"Higino","given":"Gracielle"},{"family":"Mercier","given":"Benjamin"},{"family":"Gonzalez","given":"Andrew"},{"family":"Gravel","given":"Dominique"},{"family":"Pollock","given":"Laura"},{"family":"Poisot","given":"Timothée"}],"citation-key":"Strydom2021Roadmap","container-title":"Philosophical Transactions of the Royal Society B: Biological Sciences","DOI":"10.1098/rstb.2021.0063","issue":"1837","issued":{"date-parts":[["2021",11,8]]},"page":"20210063","source":"royalsocietypublishing.org (Atypon)","title":"A roadmap towards predicting species interaction networks (across space and time)","type":"article-journal","URL":"https://royalsocietypublishing.org/doi/10.1098/rstb.2021.0063","volume":"376"},
 	{
-		"id": "Catchen2020PhaTra",
+		"id": "Catchen2020PhaseTransitions",
 		"type": "thesis",
 		"genre": "Master's Thesis",
 		"publisher": "University of Colorado at Boulder",
@@ -217,196 +547,491 @@
 			]
 		}
 	},
-    {
-        "DOI": "10.32942/X2M320",
-        "author": [
-          {
-            "family": "Griffith",
-            "given": "Jory"
-          },
-          {
-            "family": "Lord",
-            "given": "Jean-Michel"
-          },
-          {
-            "family": "Catchen",
-            "given": "Michael D"
-          },
-          {
-            "family": "Arce-Plata",
-            "given": "Maria Isabel"
-          },
-          {
-            "family": "Bohorquez",
-            "given": "Manuel Fernandez Galvez"
-          },
-          {
-            "family": "Chandramohan",
-            "given": "Matusan"
-          },
-          {
-            "family": "Diaz-Corzo",
-            "given": "María Camilla"
-          },
-          {
-            "family": "Gravel",
-            "given": "Dominique"
-          },
-          {
-            "family": "Gonzalez",
-            "given": "Luis Fernando Urbina"
-          },
-          {
-            "family": "Gutiérrez",
-            "given": "César"
-          },
-          {
-            "family": "Helfenstein",
-            "given": "Isabelle"
-          },
-          {
-            "family": "Hoban",
-            "given": "Sean"
-          },
-          {
-            "family": "Kass",
-            "given": "Jamie M"
-          },
-          {
-            "family": "Laroque",
-            "given": "Guillaume"
-          },
-          {
-            "family": "Laikre",
-            "given": "Linda"
-          },
-          {
-            "family": "Leigh",
-            "given": "Deborah"
-          },
-          {
-            "family": "Leung",
-            "given": "Brian"
-          },
-          {
-            "family": "Mastretta-Yanes",
-            "given": "Alicia"
-          },
-          {
-            "family": "Millette",
-            "given": "Katie"
-          },
-          {
-            "family": "Moreno",
-            "given": "Diego"
-          },
-          {
-            "family": "Molina-Berbeo",
-            "given": "María Alejandra"
-          },
-          {
-            "family": "Norman",
-            "given": "Kari"
-          },
-          {
-            "family": "Rincón-Parra",
-            "given": "Víctor J"
-          },
-          {
-            "family": "Pahls",
-            "given": "Simon"
-          },
-          {
-            "family": "Peres-Neto",
-            "given": "Pedro R"
-          },
-          {
-            "family": "Perreira",
-            "given": "Kaitlyn"
-          },
-          {
-            "family": "Poisot",
-            "given": "Timothée"
-          },
-          {
-            "family": "Pollock",
-            "given": "Laura J"
-          },
-          {
-            "family": "Rodríguez",
-            "given": "María Helena Olaya"
-          },
-          {
-            "family": "Röösli",
-            "given": "Claudia"
-          },
-          {
-            "family": "Rousseu",
-            "given": "François"
-          },
-          {
-            "family": "Sánchez-Clavijo",
-            "given": "Lina María"
-          },
-          {
-            "family": "Schuman",
-            "given": "Meredith Christine"
-          },
-          {
-            "family": "Selmoni",
-            "given": "Oliver"
-          },
-          {
-            "dropping-particle": "da",
-            "family": "Silva",
-            "given": "Jessica"
-          },
-          {
-            "family": "Surasinghe",
-            "given": "Thilina"
-          },
-          {
-            "family": "Turak",
-            "given": "Eren"
-          },
-          {
-            "family": "Valencia",
-            "given": "Erika Suarez"
-          },
-          {
-            "family": "Valentin",
-            "given": "Sarah"
-          },
-          {
-            "family": "Wightman",
-            "given": "Noah"
-          },
-          {
-            "family": "Zuloaga",
-            "given": "Juan"
-          },
-          {
-            "family": "Murcia",
-            "given": "María Cecilia Londoño"
-          },
-          {
-            "family": "Gonzalez",
-            "given": "Andrew"
-          }
-        ],
-        "id": "Griffith2024",
-        "issued": {
-          "date-parts": [
-            [
-              2024,
-              10,
-              28
-            ]
-          ]
-        },
-        "publisher": "EcoEvoRxiv",
-        "title": "BON in a box: An open and collaborative platform for biodiversity monitoring, indicator calculation, and reporting",
-        "title-short": "BON in a box",
-        "type": "article-journal"
-      }
+	{
+		"id": "Banville2025DecipheringProbabilistic",
+		"type": "article-journal",
+		"abstract": "Representing species interactions probabilistically as opposed to deterministically conveys uncertainties in our knowledge of interactions. The sources of uncertainty captured by interaction probabilities depend on the method used to evaluate them: uncertainty of predictive models, subjective assessment of experts, or empirical measurement of interaction spatiotemporal variability. However, guidelines for the estimation and documentation of probabilistic interaction data are lacking. This is concerning because our understanding of interaction probabilities depend on their sometimes elusive definition and uncertainty sources. We review how probabilistic interactions are defined at different spatial scales. These definitions are based on the distinction between the realisation of an interaction at a specific time and space (local networks) and its biological or ecological feasibility (metaweb). Using host–parasite interactions in Europe, we illustrate how these two network representations differ in their statistical properties, specifically: how local networks and metawebs differ in their spatial and temporal scaling of interactions. We present two approaches to inferring binary interactions from probabilistic ones that account for these differences and show that systematic biases arise when directly inferring local networks from metawebs. Our results underscore the importance of more rigorous descriptions of probabilistic species interactions that specify their conditional variables and uncertainty sources.",
+		"container-title": "Ecology Letters",
+		"DOI": "10.1111/ele.70161",
+		"ISSN": "1461-0248",
+		"issue": "6",
+		"language": "en",
+		"license": "© 2025 The Author(s). Ecology Letters published by John Wiley & Sons Ltd.",
+		"note": "_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/ele.70161",
+		"page": "e70161",
+		"source": "Wiley Online Library",
+		"title": "Deciphering Probabilistic Species Interaction Networks",
+		"URL": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ele.70161",
+		"volume": "28",
+		"author": [
+			{
+				"family": "Banville",
+				"given": "Francis"
+			},
+			{
+				"family": "Strydom",
+				"given": "Tanya"
+			},
+			{
+				"family": "Blyth",
+				"given": "Penelope S. A."
+			},
+			{
+				"family": "Brimacombe",
+				"given": "Chris"
+			},
+			{
+				"family": "Catchen",
+				"given": "Michael D."
+			},
+			{
+				"family": "Dansereau",
+				"given": "Gabriel"
+			},
+			{
+				"family": "Higino",
+				"given": "Gracielle"
+			},
+			{
+				"family": "Malpas",
+				"given": "Thomas"
+			},
+			{
+				"family": "Mayall",
+				"given": "Hana"
+			},
+			{
+				"family": "Norman",
+				"given": "Kari"
+			},
+			{
+				"family": "Gravel",
+				"given": "Dominique"
+			},
+			{
+				"family": "Poisot",
+				"given": "Timothée"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					8,
+					7
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025"
+				]
+			]
+		}
+	},
+	{
+		"id": "Poisot2025JuliaToolkita",
+		"type": "article",
+		"abstract": "(1) Species distribution modeling requires to handle varied types of data, and benefits from an integrated approach to programming. (2) We introduce SpeciesDistributionToolkit, a Julia package aiming to facilitate the production of species distribution models. It covers various steps of the data collection and analysis process, extending to the development of interfaces for integration of additional functionalities. (3) By relying on semantic versioning and strong design choices on modularity, we expect that this package will lead to improved reproducibility and long-term maintainability. (4) We illustrate the functionalities of the package through several case studies, accompanied by reproducible code.",
+		"DOI": "10.32942/X2405R",
+		"license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+		"publisher": "Biodiversity",
+		"source": "DOI.org (Crossref)",
+		"title": "A Julia toolkit for species distribution data",
+		"URL": "https://ecoevorxiv.org/repository/view/8582/",
+		"author": [
+			{
+				"family": "Poisot",
+				"given": "Timothée"
+			},
+			{
+				"family": "Bussières-Fournel",
+				"given": "Ariane"
+			},
+			{
+				"family": "Dansereau",
+				"given": "Gabriel"
+			},
+			{
+				"family": "Catchen",
+				"given": "Michael"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					8,
+					7
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					2,
+					18
+				]
+			]
+		}
+	},
+	{
+		"id": "Griffith2024BonBoxa",
+		"type": "article",
+		"abstract": "Biodiversity loss is a critical global challenge. The Kunming-Montréal Global Biodiversity Framework (GBF) sets ambitious goals to protect ecosystems, halt species loss, and enhance biodiversity. The GBF’s Monitoring Framework requires countries to track progress toward biodiversity targets using a standardized set of indicators that summarize complex trends in biodiversity. However, the calculation of these indicators can be challenging due to technical barriers, lack of available data and tools, and capacity bottlenecks, hindering countries’ ability to implement the monitoring framework. BON in a Box, developed by the Group on Earth Observations Biodiversity ObservationNetwork (GEO BON), is an open-source platform designed to address this challenge. It provides accessible tools for calculating Essential Biodiversity Variables (EBVs) and indicators — helping scientists, policymakers, and conservation practitioners prioritize monitoring areas, understand biodiversity trends, and track progress toward the targets of the GBF. BON in a Box automates the process of turning raw data into EBVs and indicators by connecting individual analysis steps into pipelines that can be run with minimal technical expertise. The pipelines are fully modular, customizable, open, and transparent, with options for users to use publicly available data or input their own proprietary data. Pipelines are all contributed by GEO BON collaborators, promoting knowledge sharing and scientific collaboration. BON in a Box is a collaborative platform for turning data into useful information to guide monitoring efforts, understand biodiversity change, make informed conservation decisions, and track progress toward meeting the targets of the GBF.",
+		"DOI": "10.32942/X2M320",
+		"license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+		"publisher": "Animal Sciences",
+		"source": "DOI.org (Crossref)",
+		"title": "BON in a Box: An Open and Collaborative Platform for Biodiversity Monitoring, Indicator Calculation, and Reporting",
+		"title-short": "BON in a Box",
+		"URL": "https://ecoevorxiv.org/repository/view/7941/",
+		"author": [
+			{
+				"family": "Griffith",
+				"given": "Jory"
+			},
+			{
+				"family": "Lord",
+				"given": "Jean-Michel"
+			},
+			{
+				"family": "Catchen",
+				"given": "Michael"
+			},
+			{
+				"family": "Arce-Plata",
+				"given": "Maria"
+			},
+			{
+				"family": "Galvez Bohorquez",
+				"given": "Manuel"
+			},
+			{
+				"family": "Chandramohan",
+				"given": "Matusan"
+			},
+			{
+				"family": "Diaz-Corzo",
+				"given": "María Camilla"
+			},
+			{
+				"family": "Gravel",
+				"given": "Dominique"
+			},
+			{
+				"family": "Urbina Gonzalez",
+				"given": "Luis Fernando"
+			},
+			{
+				"family": "Gutiérrez",
+				"given": "César"
+			},
+			{
+				"family": "Helfenstein",
+				"given": "Isabelle"
+			},
+			{
+				"family": "Hoban",
+				"given": "Sean"
+			},
+			{
+				"family": "Kass",
+				"given": "Jamie"
+			},
+			{
+				"family": "Laroque",
+				"given": "Guillaume"
+			},
+			{
+				"family": "Laikre",
+				"given": "Linda"
+			},
+			{
+				"family": "Leigh",
+				"given": "Deborah"
+			},
+			{
+				"family": "Leung",
+				"given": "Brian"
+			},
+			{
+				"family": "Mastretta-Yanes",
+				"given": "Alicia"
+			},
+			{
+				"family": "Millette",
+				"given": "Katie"
+			},
+			{
+				"family": "Moreno",
+				"given": "Diego"
+			},
+			{
+				"family": "Molina-Berbeo",
+				"given": "María Alejandra"
+			},
+			{
+				"family": "Norman",
+				"given": "Kari"
+			},
+			{
+				"family": "Rincón-Parra",
+				"given": "Víctor"
+			},
+			{
+				"family": "Pahls",
+				"given": "Simon"
+			},
+			{
+				"family": "Peres-Neto",
+				"given": "Pedro"
+			},
+			{
+				"family": "Perreira",
+				"given": "Kaitlyn"
+			},
+			{
+				"family": "Poisot",
+				"given": "Timothée"
+			},
+			{
+				"family": "Pollock",
+				"given": "Laura"
+			},
+			{
+				"family": "Olaya Rodríguez",
+				"given": "María Helena"
+			},
+			{
+				"family": "Röösli",
+				"given": "Claudia"
+			},
+			{
+				"family": "Rousseu",
+				"given": "François"
+			},
+			{
+				"family": "Sánchez-Clavijo",
+				"given": "Lina María"
+			},
+			{
+				"family": "Schuman",
+				"given": "Meredith"
+			},
+			{
+				"family": "Selmoni",
+				"given": "Oliver"
+			},
+			{
+				"family": "Da Silva",
+				"given": "Jessica"
+			},
+			{
+				"family": "Surasinghe",
+				"given": "Thilina"
+			},
+			{
+				"family": "Turak",
+				"given": "Eren"
+			},
+			{
+				"family": "Valencia",
+				"given": "Erika"
+			},
+			{
+				"family": "Valentin",
+				"given": "Sarah"
+			},
+			{
+				"family": "Wightman",
+				"given": "Noah"
+			},
+			{
+				"family": "Zuloaga",
+				"given": "Juan"
+			},
+			{
+				"family": "Londoño Murcia",
+				"given": "María Cecilia"
+			},
+			{
+				"family": "Gonzalez",
+				"given": "Andrew"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					8,
+					7
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					10,
+					28
+				]
+			]
+		}
+	},
+	{
+		"id": "Poisot2025BiodiversityScience",
+		"type": "article-journal",
+		"container-title": "BioScience",
+		"DOI": "10.1093/biosci/biaf091",
+		"ISSN": "1525-3244",
+		"journalAbbreviation": "BioScience",
+		"page": "biaf091",
+		"source": "Silverchair",
+		"title": "Biodiversity science and biosurveillance are fellow travelers",
+		"URL": "https://doi.org/10.1093/biosci/biaf091",
+		"author": [
+			{
+				"family": "Poisot",
+				"given": "Timothée"
+			},
+			{
+				"family": "Becker",
+				"given": "Daniel J"
+			},
+			{
+				"family": "Catchen",
+				"given": "Michael D"
+			},
+			{
+				"family": "Gibb",
+				"given": "Rory"
+			},
+			{
+				"family": "Shimabukuro",
+				"given": "Paloma H  F"
+			},
+			{
+				"family": "Carlson",
+				"given": "Colin J"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					8,
+					7
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					6,
+					24
+				]
+			]
+		}
+	},
+	{
+		"id": "Catchen2023ImprovingEcological",
+		"type": "article",
+		"abstract": "This is a conference paper presented at the ICLR 2023 \"Machine Learning for Remote Sensing\" workshop.Protecting and restoring ecological connectivity is essential to climate change adaptation, and necessary if species are to shift their geographic distributions to track their suitable climatic conditions over the coming century. Despite the increasing availability of near real-time and high resolution data for landcover change, current connectivity planning projects are hindered by the computational time required to run connectivity analyses at realistic geographic scales with realistic models of movement. This bottleneck precludes application of optimization algorithms to prioritize ecological restoration to maintain and improve connectivity. Here we propose we can make progress toward overcoming these challenges using machine-learning methods. Our proposed methods will enable rapid optimization of connectivity prioritization and extend its application to many more species than is currently possible. We conclude by illustrating how this project will contribute to efforts to apply connectivity conservation using an example of ongoing restoration in southern Québec.",
+		"DOI": "10.32942/X2259C",
+		"publisher": "Artificial Intelligence and Robotics",
+		"source": "DOI.org (Crossref)",
+		"title": "Improving ecological connectivity assessments with transfer learning and function approximation",
+		"URL": "https://ecoevorxiv.org/repository/view/5348/",
+		"author": [
+			{
+				"family": "Catchen",
+				"given": "Michael"
+			},
+			{
+				"family": "Lin",
+				"given": "Michelle"
+			},
+			{
+				"family": "Poisot",
+				"given": "Timothée"
+			},
+			{
+				"family": "Rolnick",
+				"given": "David"
+			},
+			{
+				"family": "Gonzalez",
+				"given": "Andrew"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					8,
+					7
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					5,
+					4
+				]
+			]
+		}
+	},
+	{
+		"id": "Catchen2023MissingLink",
+		"type": "article",
+		"abstract": "Ecosystems are composed of networks of interacting species. These interactions allow communities of species to persist through time through both neutral and adaptive processes. Despite their importance, a robust understanding of (and ability to predict and forecast) interactions among species remains elusive. This knowledge-gap is largely driven by a shortfall of data—although species occurrence data has rapidly increased in the last decade, species interaction data has not kept pace, largely due to the effort required to sample interactions. This means there are many interactions between species that occur in nature, but we do not know these interactions occur because we have never observed them. These so-called “false-negatives” bias data and hinder inference about the structure and dynamics of interaction networks. Here, we demonstrate the realized rate of false-negatives in data can be quite high, even in thoroughly sampled systems, due to the intrinsic variation in abundances across species in a community. We illustrate how a null model of occurrence detection can be used to estimate the false-negative rate in a given dataset. We also show how to directly incorporate uncertainty due to observation error into model-based predictions of interaction probabilities between species. One hypothesis is that interactions between “rare” species are themselves rare because these species are less likely to encounter one-another than species of higher relative abundance, and that this can (in part) explain the common pattern of nestedness in bipartite interaction networks. However, we demonstrate that across several datasets of spatial or temporally replicated networks, there are positive associations between species co-occurrence and interactions, which suggests these interactions among “rare” species actually exist but simply are not observed. Finally, we assess how false negatives influence various models of network prediction, and recommend directly accounting for observation error in predictive models. We conclude by discussing how the understanding of false-negatives can inform how we design monitoring schemes for species interactions.",
+		"DOI": "10.32942/X2DW22",
+		"publisher": "Applied Statistics",
+		"source": "DOI.org (Crossref)",
+		"title": "The missing link: discerning true from false negatives when sampling species interaction networks",
+		"title-short": "The missing link",
+		"URL": "https://ecoevorxiv.org/repository/view/4929/",
+		"author": [
+			{
+				"family": "Catchen",
+				"given": "Michael"
+			},
+			{
+				"family": "Poisot",
+				"given": "Timothée"
+			},
+			{
+				"family": "Pollock",
+				"given": "Laura"
+			},
+			{
+				"family": "Gonzalez",
+				"given": "Andrew"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					8,
+					7
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					1,
+					18
+				]
+			]
+		}
+	}
 ]

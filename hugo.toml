@@ -25,11 +25,7 @@ preserveTaxonomyNames = true
     pre = "ri-account-circle-line"
     url = "/about/"
     weight = 2
-  [[menu.main]]
-    name = "research"
-    pre = "ri-microscope-line"
-    url = "/research/"
-    weight = 3
+
   [[menu.main]]
     name = "publications"
     pre = "ri-file-paper-2-line"

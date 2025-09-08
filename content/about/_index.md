@@ -37,7 +37,7 @@ science, or something else, [hit me up](mailto:michael.catchen@umontreal.ca).
 
 ### Technical specifications
 
-- Established in Florida circa 1997 --- _27 years of Quality, Service, and Value_
+- Established in Florida circa 1997 --- _28 years of Quality, Service, and Value_
 - 1803.39 x 457.23 x 254.2 mm (measurements and units are approximate)
 - Raised in Colorado
 - Technically worked for NASA for about 8 months
